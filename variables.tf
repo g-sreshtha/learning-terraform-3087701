@@ -21,7 +21,7 @@ variable "ami_filter" {
 variable "environment" {
   description = "Dev env"
 
-  type object ({
+  type = object ({
     name = string
     network_prefix = string
   })
