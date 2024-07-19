@@ -27,7 +27,7 @@ variable "environment" {
   })
 
   default = {
-    name = "dev
+    name = "dev"
     network_prefix = "10.0
   }
 }
